@@ -1,0 +1,39 @@
+.alert-settings {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 8px;
+    padding: 8px 12px;
+}
+
+.alert-settings:empty {
+    display: none;
+}
+
+.alert-settings button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 32px;
+    padding: 4px 8px;
+    border-radius: var(--radius);
+    color: var(--secondary);
+    font-size: 12px;
+}
+
+.alert-settings button:hover {
+    background: var(--raised);
+}
+
+.alert-settings button[aria-pressed="true"] {
+    background: #e7eee9;
+    color: #25362b;
+}
+
+.alert-settings p {
+    flex-basis: 100%;
+    margin: 3px 8px 0;
+    color: var(--secondary);
+    font-size: 12px;
+    line-height: 1.4;
+}

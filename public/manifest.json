@@ -1,0 +1,26 @@
+{
+    "id": "/",
+    "name": "HeyDay",
+    "short_name": "HeyDay",
+    "description": "Trò chuyện với bạn bè trên HeyDay",
+    "lang": "vi",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#f5f5f1",
+    "theme_color": "#25362b",
+    "icons": [
+        {
+            "src": "/icons/heyday-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/heyday-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
